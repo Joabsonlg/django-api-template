@@ -26,7 +26,7 @@ source venv/bin/activate
 
 Add the environment variables: (create the '.env' file and add the variables)
 ```bash
-EMAIL_HOST_USER=myEmail7@gmail.com
+EMAIL_HOST_USER=myEmail@gmail.com
 EMAIL_HOST_PASSWORD=myPassword
 SECRET_KEY=mySecretKey
 ```
@@ -63,4 +63,4 @@ Please make sure to update tests as appropriate.
 [![Gmail Badge](https://img.shields.io/badge/-joabsonlg918@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:joabsonlg918@gmail.com)](mailto:joabsonlg918@gmail.com)
 
 ## License
-[MIT](https://github.com/Joabsonlg/vuetify-landing-page/blob/master/LICENSE)
+[MIT](https://github.com/Joabsonlg/django-api-template/blob/master/LICENSE)
