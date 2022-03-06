@@ -1,6 +1,6 @@
 # Django API template
 
-#### This is a basic django api template.
+#### API base project made with Django Rest Framework and Djoser for authentication.
 
 
 ## Project setup
