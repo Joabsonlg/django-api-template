@@ -55,8 +55,7 @@ class UserTestCase(APITestCase):
     def login(self):
         data = {
             'username': 'testusertest',
-            'password': 'a2d4g6rt',
-            'email': 'teste@email.com'
+            'password': 'a2d4g6rt'
         }
         url = '/api/v1/jwt/create/'
         return self.client.post(url, data, format='json')
