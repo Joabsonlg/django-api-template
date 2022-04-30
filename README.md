@@ -25,9 +25,10 @@ source venv/bin/activate
 ```
 
 Add the environment variables: (create the '.env' file and add the variables)
+<br/>For sending e-mails sendinblue was used
 ```bash
-EMAIL_HOST_USER=myEmail@gmail.com
-EMAIL_HOST_PASSWORD=myPassword
+EMAIL_LOGIN=<myEmail>
+EMAIL_PASSWORD=<myPassword>
 SECRET_KEY=mySecretKey
 ```
 
