@@ -41,8 +41,8 @@ jobs:
       run: python manage.py migrate
       env:
         SECRET_KEY: ${{ secrets.SECRET_KEY }}
-        EMAIL_HOST_USER: ${{ secrets.EMAIL_HOST_USER }}
-        EMAIL_HOST_PASSWORD: ${{ secrets.EMAIL_HOST_PASSWORD }}
+        EMAIL_LOGIN: ${{ secrets.EMAIL_LOGIN }}
+        EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
     - name: Run Tests
       run: |
         python manage.py test
